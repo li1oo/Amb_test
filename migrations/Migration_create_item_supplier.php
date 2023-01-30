@@ -19,7 +19,7 @@ class Migration_create_item_supplier
     }
 
     public function down(){
-        $request = 'DROP TABLE `item`';
+        $request = 'DROP TABLE `item_supplier`';
         pdo->query($request);
     }
 }
